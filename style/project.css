@@ -18,3 +18,12 @@ nav li:hover{
 nav ul a{
     text-decoration: none;
 }
+nav li .dropdown{
+    display: none;
+}
+
+ nav li:hover > .dropdown{ 
+         position: absolute;
+         padding-left: 10px;
+         display:block;
+}
